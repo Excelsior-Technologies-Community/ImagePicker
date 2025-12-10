@@ -27,7 +27,7 @@ Done! The package is now installed.
 In any SwiftUI file where you want to use the swipe pager:
 
 ```swift
-import ImagePicker
+import ImageSlider
 ```
 
 ---
@@ -38,7 +38,7 @@ import ImagePicker
 
 ```swift
 import SwiftUI
-import ImagePicker
+import ImageSlider
 
 struct ContentView: View {
     var body: some View {
@@ -63,7 +63,7 @@ struct ContentView: View {
 
 ```swift
 import SwiftUI
-import ImagePicker
+import ImageSlider
 
 struct ContentView: View {
     let customImages: [UIImage] = [
